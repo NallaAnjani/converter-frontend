@@ -53,3 +53,37 @@ h2{
   color:aliceblue
 
 } 
+@media (max-width: 480px) {
+  body{
+  height: 90vh;
+  
+}
+  .App {
+    margin: 50px;
+    width:70%;
+  
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  input {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
